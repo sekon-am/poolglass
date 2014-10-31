@@ -1,0 +1,37 @@
+﻿.edit_icon, .edit_icon>.hover{
+    background-image: url(images/edit-icon.png);   
+    width: 27px;
+    height: 23px;
+}
+.edit_icon>.hover{
+	background-position: -27px 0px;
+}
+.fp_edit{
+	position: absolute;
+	margin-top: -80px;
+}
+.cat_post_edit{
+	position: absolute;
+	margin: 10px 0 0 733px;
+}
+.post_price{
+	position: absolute;
+	margin: -15px 0 0 750px;
+}
+.post_price-item{
+	position: absolute;
+	margin: -5px 0 0 750px;
+}
+.post_akcii-item{
+	position: absolute;
+	margin: -5px 0 0 750px;
+}
+.post_akcii{
+	position: absolute;
+	margin: -20px 0 0 750px;
+}
+.post_static_edit{
+	position: absolute;
+	margin: -15px 0 0 750px;
+}
+
