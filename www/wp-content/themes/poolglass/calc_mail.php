@@ -10,12 +10,14 @@
 	$AQ_HEIGHT = $_POST["AQ_HEIGHT"];
 	$AQ_WIDTH = $_POST["AQ_WIDTH"];
 	$AQ_WATER_LV = $_POST["AQ_WATER_LV"];
+	$AQ_DIAM = $_POST["AQ_DIAM"];
 	$AQ_FORM_JOINT = $_POST["AQ_FORM_JOINT"];
 	$LiToHtml = '';
 	if ( ($AQ_LENGTH != '') && ($AQ_LENGTH != '0') ){ $LiToHtml = '<li>Длинна: <b>'.$AQ_LENGTH.'</b> см</li>'; }
 	if ( ($AQ_HEIGHT != '') && ($AQ_HEIGHT != '0') ){ $LiToHtml .= '<li>Высота: <b>'.$AQ_HEIGHT.'</b> см</li>'; }
 	if ( ($AQ_WIDTH != '') && ($AQ_WIDTH != '0') ){ $LiToHtml .= '<li>Ширина: <b>'.$AQ_WIDTH.'</b> см</li>'; }
 	if ( ($AQ_WATER_LV != '') && ($AQ_WATER_LV != '0') ){ $LiToHtml .= '<li>Уровнь воды: <b>'.$AQ_WATER_LV.'</b> см</li>'; }
+	if ( ($AQ_DIAM != '') && ($AQ_DIAM != '0') ){ $LiToHtml .= '<li>Диаметр остекления: <b>'.$AQ_DIAM.'</b></li>'; }
 	if ( ($AQ_FORM_JOINT != '') && ($AQ_FORM_JOINT != '0') ){ $LiToHtml .= '<li>Форма швов: <b>'.$AQ_FORM_JOINT.'</b></li>'; }
 
 	// SEND MAIL TO MANAGER

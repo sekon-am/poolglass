@@ -659,6 +659,13 @@ jQuery(document).ready(function($) {
 	}
 	
 	CalcSendMail = function(el){
+	var GET_AQ_LENGTH		= '',
+		GET_AQ_HEIGHT		= '',
+		GET_AQ_WIDTH		= '',
+		GET_AQ_WATER_LV		= '',
+		GET_AQ_FORM_JOINT	= '',
+		GET_AQ_DIAM			= '';
+
 	// GET PARAMS
 	// LV 1-1
 	if ( $('#aq_type_1').hasClass('btn_state_true') ){
@@ -714,9 +721,7 @@ jQuery(document).ready(function($) {
 		}
 		else if ( $('#aq_type_2-2').hasClass('btn_state_true') ){
 			GET_AQ_FORM = 		$('#aq_type_1-2').parent().find('.calc_forms_title').text();
-			GET_AQ_LENGTH = 	'';
-			GET_AQ_HEIGHT = 	$('#calc_params_set-6').find('.aq_height').val();
-			GET_AQ_WIDTH = 		'';
+			GET_AQ_DIAM =	 	$('#calc_params_set-6').find('.aq_diam').val();
 			GET_AQ_WATER_LV = 	$('#calc_params_set-6').find('.aq_water_lv').val();
 			GET_AQ_FORM_JOINT = '';
 		}
@@ -729,17 +734,14 @@ jQuery(document).ready(function($) {
 		if ( $('#aq_type_3-1').hasClass('btn_state_true') ){
 			GET_AQ_FORM = $('#aq_type_3-1').parent().find('.calc_forms_title').text();
 			GET_AQ_LENGTH = 	$('#calc_params_set-7').find('.aq_length').val();
-			GET_AQ_HEIGHT = 	$('#calc_params_set-7').find('.aq_height').val();
+			GET_AQ_WATER_LV = 	$('#calc_params_set-7').find('.aq_water_lv').val();
 			GET_AQ_WIDTH = 		$('#calc_params_set-7').find('.aq_width').val();
-			GET_AQ_WATER_LV =	'';
 			GET_AQ_FORM_JOINT = '';
 		}
 		else if ( $('#aq_type_3-2').hasClass('btn_state_true') ){
 			GET_AQ_FORM = $('#aq_type_3-2').parent().find('.calc_forms_title').text();
-			GET_AQ_LENGTH = 	$('#calc_params_set-8').find('.aq_length').val();
-			GET_AQ_HEIGHT = 	$('#calc_params_set-8').find('.aq_height').val();
-			GET_AQ_WIDTH = 		$('#calc_params_set-8').find('.aq_width').val();
-			GET_AQ_WATER_LV =	'';
+			GET_AQ_DIAM = 		$('#calc_params_set-8').find('.aq_diam').val();
+			GET_AQ_WATER_LV =	$('#calc_params_set-8').find('.aq_water_lv').val();
 			GET_AQ_FORM_JOINT = '';
 		}
 
@@ -763,7 +765,7 @@ jQuery(document).ready(function($) {
 	if ( (STATE_MAIL == true) && (STATE_NAME == true) && (STATE_TELL == true) ){
 		// CALC SEND MAIL
 		$.ajax({
-		        url: "http://poolglass.ru/wp-content/themes/poolglass/calc_mail.php",
+		        url: "http://poolglass/wp-content/themes/poolglass/calc_mail.php",
 		        global: false,
 		        type: "POST",
 		        data: ({
@@ -776,7 +778,8 @@ jQuery(document).ready(function($) {
 					AQ_HEIGHT: GET_AQ_HEIGHT,
 					AQ_WIDTH: GET_AQ_WIDTH,
 					AQ_WATER_LV: GET_AQ_WATER_LV,
-					AQ_FORM_JOINT: GET_AQ_FORM_JOINT
+					AQ_FORM_JOINT: GET_AQ_FORM_JOINT,
+					AQ_DIAM: GET_AQ_DIAM
 		           }),
 		        dataType: "json",
 				success: function(calc_results){

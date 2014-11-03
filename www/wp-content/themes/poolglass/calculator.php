@@ -291,12 +291,12 @@
 						<ul class="aq_shcheme_params">
 							<li class="aq_list_item">
 								<div class="circle-number circle-number-6"></div><div class="aqli_title_conteiner"><p class="aqli_title"><?php echo str_by_lang('Диаметр остекления', 'Length glazing'); ?></p></div>
-								<input class="aq_length aqs_editbox aqs_editbox_markup" type="text" value="0" />
+								<input class="aq_diam aqs_editbox aqs_editbox_markup" type="text" value="0" />
 								<div class="aqli_val-type_container"><p class="aqli_val-type"><?php echo str_by_lang('см', 'cm'); ?></p></div>
 							</li>
 							<li class="aq_list_item">
 								<div class="circle-number circle-number-4"></div><div class="aqli_title_conteiner"><p class="aqli_title"><?php echo str_by_lang('Уровень воды от низа иллюминатора', 'Height glazing'); ?></p></div>
-								<input class="aq_height aqs_editbox aqs_editbox_markup" type="text" value="0" />
+								<input class="aq_water_lv aqs_editbox aqs_editbox_markup" type="text" value="0" />
 								<div class="aqli_val-type_container"><p class="aqli_val-type"><?php echo str_by_lang('см', 'cm'); ?></p></div>
 							</li>
 						</ul>
@@ -316,7 +316,7 @@
 							</li>
 							<li class="aq_list_item">
 								<div class="circle-number circle-number-4"></div><div class="aqli_title_conteiner"><p class="aqli_title"><?php echo str_by_lang('Уровень воды в бассейне', 'Height glazing'); ?></p></div>
-								<input class="aq_height aqs_editbox aqs_editbox_markup" type="text" value="0" />
+								<input class="aq_water_lv aqs_editbox aqs_editbox_markup" type="text" value="0" />
 								<div class="aqli_val-type_container"><p class="aqli_val-type"><?php echo str_by_lang('см', 'cm'); ?></p></div>
 							</li>
 							<li class="aq_list_item">
@@ -335,18 +335,13 @@
 						
 						<ul class="aq_shcheme_params">
 							<li class="aq_list_item">
-								<div class="circle-number"></div><div class="aqli_title_conteiner"><p class="aqli_title"><?php echo str_by_lang('Длинна остекления', 'Length glazing'); ?></p></div>
-								<input class="aq_length aqs_editbox aqs_editbox_markup" type="text" value="0" />
+								<div class="circle-number circle-number-6"></div><div class="aqli_title_conteiner"><p class="aqli_title"><?php echo str_by_lang('Диаметр остекления', 'Length glazing'); ?></p></div>
+								<input class="aq_diam aqs_editbox aqs_editbox_markup" type="text" value="0" />
 								<div class="aqli_val-type_container"><p class="aqli_val-type"><?php echo str_by_lang('см', 'cm'); ?></p></div>
 							</li>
 							<li class="aq_list_item">
-								<div class="circle-number circle-number-2"></div><div class="aqli_title_conteiner"><p class="aqli_title"><?php echo str_by_lang('Высота остекления', 'Height glazing'); ?></p></div>
-								<input class="aq_height aqs_editbox aqs_editbox_markup" type="text" value="0" />
-								<div class="aqli_val-type_container"><p class="aqli_val-type"><?php echo str_by_lang('см', 'cm'); ?></p></div>
-							</li>
-							<li class="aq_list_item">
-								<div class="circle-number circle-number-3"></div><div class="aqli_title_conteiner"><p class="aqli_title"><?php echo str_by_lang('Ширина остекления', 'Width glazing'); ?></p></div>
-								<input class="aq_width aqs_editbox aqs_editbox_markup" type="text" value="0" />
+								<div class="circle-number circle-number-4"></div><div class="aqli_title_conteiner"><p class="aqli_title"><?php echo str_by_lang('Уровень воды в бассейне', 'Height glazing'); ?></p></div>
+								<input class="aq_water_lv aqs_editbox aqs_editbox_markup" type="text" value="0" />
 								<div class="aqli_val-type_container"><p class="aqli_val-type"><?php echo str_by_lang('см', 'cm'); ?></p></div>
 							</li>
 						</ul>				
