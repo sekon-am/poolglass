@@ -765,7 +765,8 @@ jQuery(document).ready(function($) {
 	if ( (STATE_MAIL == true) && (STATE_NAME == true) && (STATE_TELL == true) ){
 		// CALC SEND MAIL
 		$.ajax({
-		        url: "http://poolglass/wp-content/themes/poolglass/calc_mail.php",
+		        /*url: "http://poolglass/wp-content/themes/poolglass/calc_mail.php",*/
+		        url: "http://poolglass.ru/wp-content/themes/poolglass/calc_mail.php",
 		        global: false,
 		        type: "POST",
 		        data: ({
