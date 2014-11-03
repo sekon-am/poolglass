@@ -25,7 +25,8 @@ define('DB_USER', 'vh37047_pg');
 define('DB_PASSWORD', 'r4VN2S6M');
 
 /** Имя сервера MySQL */
-define('DB_HOST', 'db01.hostline.ru');
+//define('DB_HOST', 'db01.hostline.ru');
+define('DB_HOST', 'localhost');
 
 /** Кодировка базы данных для создания таблиц. */
 define('DB_CHARSET', 'utf8');
