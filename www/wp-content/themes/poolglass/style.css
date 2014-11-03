@@ -731,6 +731,9 @@ a:hover,
 .circle-number-5{
 	background-position: 0 -132px !important;
 }
+.circle-number-6{
+	background-position: 0 -165px !important;
+}
 .calc_params_set{
 	display: none;
 }

@@ -71,7 +71,7 @@
 							<div id="calc-forms-set_3-1" class="aq_types_small div_center"></div>
 							<div id="aq_type_3-1" class="yes-no-btn div_center"><div class="ynb-slide"></div><div class="ynb-yes"><div class="ynb-no"></div></div></div>
 						</div><div class="forms_set_item">
-							<p class="calc_forms_title"><?php echo str_by_lang('Закругленные углы стекла', 'Rounded corners of glass'); ?></p>
+							<p class="calc_forms_title"><?php echo str_by_lang('Диаметральное остекление', 'Rounded corners of glass'); ?></p>
 							<div id="calc-forms-set_3-2" class="aq_types_small div_center"></div>
 							<div id="aq_type_3-2" class="yes-no-btn div_center"><div class="ynb-slide"></div><div class="ynb-yes"><div class="ynb-no"></div></div></div>
 						</div>	
@@ -100,12 +100,7 @@
 								<div class="aqli_val-type_container"><p class="aqli_val-type"><?php echo str_by_lang('см', 'cm'); ?></p></div>
 							</li>
 							<li class="aq_list_item">
-								<div class="circle-number circle-number-3"></div><div class="aqli_title_conteiner"><p class="aqli_title"><?php echo str_by_lang('Ширина остекления', 'Width glazing'); ?></p></div>
-								<input class="aq_width aqs_editbox aqs_editbox_markup" type="text" value="0" />
-								<div class="aqli_val-type_container"><p class="aqli_val-type"><?php echo str_by_lang('см', 'cm'); ?></p></div>
-							</li>
-							<li class="aq_list_item">
-								<div class="circle-number circle-number-4"></div><div class="aqli_title_conteiner"><p class="aqli_title"><?php echo str_by_lang('Уровень воды по стеклу', 'Water level on the glass'); ?></p></div>
+								<div class="circle-number circle-number-4"></div><div class="aqli_title_conteiner"><p class="aqli_title"><?php echo str_by_lang('Уровень воды от низа остекления', 'Water level on the glass'); ?></p></div>
 								<input class="aq_water_lv aqs_editbox aqs_editbox_markup" type="text" value="0" />
 								<div class="aqli_val-type_container"><p class="aqli_val-type"><?php echo str_by_lang('см', 'cm'); ?></p></div>
 							</li>
@@ -135,7 +130,7 @@
 								<div class="aqli_val-type_container"><p class="aqli_val-type"><?php echo str_by_lang('см', 'cm'); ?></p></div>
 							</li>
 							<li class="aq_list_item">
-								<div class="circle-number circle-number-4"></div><div class="aqli_title_conteiner"><p class="aqli_title"><?php echo str_by_lang('Уровень воды по стеклу', 'Water level on the glass'); ?></p></div>
+								<div class="circle-number circle-number-4"></div><div class="aqli_title_conteiner"><p class="aqli_title"><?php echo str_by_lang('Уровень воды от низа остекления', 'Water level on the glass'); ?></p></div>
 								<input class="aq_water_lv aqs_editbox aqs_editbox_markup" type="text" value="0" />
 								<div class="aqli_val-type_container"><p class="aqli_val-type"><?php echo str_by_lang('см', 'cm'); ?></p></div>
 							</li>
@@ -185,7 +180,7 @@
 								<div class="aqli_val-type_container"><p class="aqli_val-type"><?php echo str_by_lang('см', 'cm'); ?></p></div>
 							</li>
 							<li class="aq_list_item">
-								<div class="circle-number circle-number-4"></div><div class="aqli_title_conteiner"><p class="aqli_title"><?php echo str_by_lang('Уровень воды по стеклу', 'Water level on the glass'); ?></p></div>
+								<div class="circle-number circle-number-4"></div><div class="aqli_title_conteiner"><p class="aqli_title"><?php echo str_by_lang('Уровень воды от низа остекления', 'Water level on the glass'); ?></p></div>
 								<input class="aq_water_lv aqs_editbox aqs_editbox_markup" type="text" value="0" />
 								<div class="aqli_val-type_container"><p class="aqli_val-type"><?php echo str_by_lang('см', 'cm'); ?></p></div>
 							</li>
@@ -235,7 +230,7 @@
 								<div class="aqli_val-type_container"><p class="aqli_val-type"><?php echo str_by_lang('см', 'cm'); ?></p></div>
 							</li>
 							<li class="aq_list_item">
-								<div class="circle-number circle-number-4"></div><div class="aqli_title_conteiner"><p class="aqli_title"><?php echo str_by_lang('Уровень воды по стеклу', 'Water level on the glass'); ?></p></div>
+								<div class="circle-number circle-number-4"></div><div class="aqli_title_conteiner"><p class="aqli_title"><?php echo str_by_lang('Уровень воды от низа остекления', 'Water level on the glass'); ?></p></div>
 								<input class="aq_water_lv aqs_editbox aqs_editbox_markup" type="text" value="0" />
 								<div class="aqli_val-type_container"><p class="aqli_val-type"><?php echo str_by_lang('см', 'cm'); ?></p></div>
 							</li>
@@ -280,12 +275,7 @@
 								<div class="aqli_val-type_container"><p class="aqli_val-type"><?php echo str_by_lang('см', 'cm'); ?></p></div>
 							</li>
 							<li class="aq_list_item">
-								<div class="circle-number circle-number-3"></div><div class="aqli_title_conteiner"><p class="aqli_title"><?php echo str_by_lang('Ширина остекления', 'Width glazing'); ?></p></div>
-								<input class="aq_width aqs_editbox aqs_editbox_markup" type="text" value="0" />
-								<div class="aqli_val-type_container"><p class="aqli_val-type"><?php echo str_by_lang('см', 'cm'); ?></p></div>
-							</li>
-							<li class="aq_list_item">
-								<div class="circle-number circle-number-4"></div><div class="aqli_title_conteiner"><p class="aqli_title"><?php echo str_by_lang('Уровень воды по стеклу', 'Water level on the glass'); ?></p></div>
+								<div class="circle-number circle-number-4"></div><div class="aqli_title_conteiner"><p class="aqli_title"><?php echo str_by_lang('Уровень воды от низа иллюминатора', 'Water level on the glass'); ?></p></div>
 								<input class="aq_water_lv aqs_editbox aqs_editbox_markup" type="text" value="0" />
 								<div class="aqli_val-type_container"><p class="aqli_val-type"><?php echo str_by_lang('см', 'cm'); ?></p></div>
 							</li>
@@ -300,12 +290,12 @@
 						
 						<ul class="aq_shcheme_params">
 							<li class="aq_list_item">
-								<div class="circle-number circle-number-2"></div><div class="aqli_title_conteiner"><p class="aqli_title"><?php echo str_by_lang('Длинна остекления', 'Length glazing'); ?></p></div>
+								<div class="circle-number circle-number-6"></div><div class="aqli_title_conteiner"><p class="aqli_title"><?php echo str_by_lang('Диаметр остекления', 'Length glazing'); ?></p></div>
 								<input class="aq_length aqs_editbox aqs_editbox_markup" type="text" value="0" />
 								<div class="aqli_val-type_container"><p class="aqli_val-type"><?php echo str_by_lang('см', 'cm'); ?></p></div>
 							</li>
 							<li class="aq_list_item">
-								<div class="circle-number circle-number-4"></div><div class="aqli_title_conteiner"><p class="aqli_title"><?php echo str_by_lang('Высота остекления', 'Height glazing'); ?></p></div>
+								<div class="circle-number circle-number-4"></div><div class="aqli_title_conteiner"><p class="aqli_title"><?php echo str_by_lang('Уровень воды от низа иллюминатора', 'Height glazing'); ?></p></div>
 								<input class="aq_height aqs_editbox aqs_editbox_markup" type="text" value="0" />
 								<div class="aqli_val-type_container"><p class="aqli_val-type"><?php echo str_by_lang('см', 'cm'); ?></p></div>
 							</li>
@@ -325,7 +315,7 @@
 								<div class="aqli_val-type_container"><p class="aqli_val-type"><?php echo str_by_lang('см', 'cm'); ?></p></div>
 							</li>
 							<li class="aq_list_item">
-								<div class="circle-number circle-number-2"></div><div class="aqli_title_conteiner"><p class="aqli_title"><?php echo str_by_lang('Высота остекления', 'Height glazing'); ?></p></div>
+								<div class="circle-number circle-number-4"></div><div class="aqli_title_conteiner"><p class="aqli_title"><?php echo str_by_lang('Уровень воды в бассейне', 'Height glazing'); ?></p></div>
 								<input class="aq_height aqs_editbox aqs_editbox_markup" type="text" value="0" />
 								<div class="aqli_val-type_container"><p class="aqli_val-type"><?php echo str_by_lang('см', 'cm'); ?></p></div>
 							</li>
