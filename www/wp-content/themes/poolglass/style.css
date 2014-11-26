@@ -118,6 +118,12 @@ a:hover,
 .post-in-cat_title, .pbi_container a:hover{
 	color: #00afe9;
 }
+.a-bit-bigger{
+	font-size:11pt !important;
+}
+.red-price{
+	color:red;
+}
 #logo, #logo>.hover{
 	width: 417px;
 	height: 64px;
@@ -1261,6 +1267,8 @@ a:hover,
 .cat_thumb{
 	background-color: #ececec;
 	margin: 0 !important;
+	background-size:cover;
+	background-position:center center;
 }
 .cat_item_shadow{
 	position: absolute;
@@ -1302,6 +1310,26 @@ a:hover,
 .cat_item_shadow>.cat_shadow_hover{
 	background-position: 0 -117px;
 }
+
+.video-in-content{
+    display: block;
+    background: no-repeat center;
+    background-size: cover;
+}
+
+.video-in-content>.btn-play{
+    width: inherit;
+    height: inherit;
+    background: url(images/play-icon.png) no-repeat center;
+    -webkit-box-shadow: inset 0px 0px 60px 0px rgba(0,0,0,0.5);
+    -moz-box-shadow: inset 0px 0px 60px 0px rgba(0,0,0,0.5);
+    box-shadow: inset 0px 0px 60px 0px rgba(0,0,0,0.5);
+}
+
+.video-in-content>.btn-play:hover{
+    background: url(images/play-icon-hover.png) no-repeat center;
+}
+
 
 /*CONTENT STYLE*/
 .inner-content-standart-icon{
@@ -1380,7 +1408,7 @@ img.size-auto,
 img.size-large,
 img.size-full,
 img.size-medium {
-	max-width: 100%;
+	max-width: auto;
 	height: auto;
 }
 .alignleft {

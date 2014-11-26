@@ -831,4 +831,31 @@ jQuery(document).ready(function($) {
 	// END FUNCTION CalcSendMail 
 	};
 	
+	
+	// FANCYBOX VIDEO
+	
+	$(".video-in-content").each(function(){
+		$(this).append('<div class="btn-play"></div>');
+	});
+	
+	$(".video-in-content").click(function() {
+		$.fancybox({
+			'padding'		: 0,
+			'autoScale'		: false,
+			'transitionIn'	: 'none',
+			'transitionOut'	: 'none',
+			'title'			: this.title,
+			'width'			: 960,
+			'height'		: 540,
+			'href'			: this.href.replace(new RegExp("watch\\?v=", "i"), 'v/'),
+			'type'			: 'swf',
+			'swf'			: {
+			'wmode'			: 'transparent',
+			'allowfullscreen'	: 'true'
+			}
+		});
+
+		return false;
+	});
+	
 });

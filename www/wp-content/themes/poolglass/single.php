@@ -114,7 +114,7 @@
 							<ul class="cat_item_container">
 								<li class="cat_thumb" style="background-image: url(<?php the_field("cat_thumb"); ?>);"></li>
 								<li class="cat_item_shadow"><div class="cat_shadow_hover"></div></li>
-								<li class="post-in-cat_title"><?php the_title(); ?></li>
+								<li class="post-in-cat_title a-bit-bigger"><?php the_title(); ?></li>
 							</ul>
 						</a>
 			        <?php endwhile; ?>

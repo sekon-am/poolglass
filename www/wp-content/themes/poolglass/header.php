@@ -10,11 +10,13 @@ if (!is_user_logged_in()) : ?>
 <title><?php wp_title( '|', true, 'right' ); ?></title>
 <meta name="description" content="<?php
 
-    $description = str_by_lang('Изготовление прозрачных бассейнов, подводных окон, иллюминаторов и остекление бассейнов', '---');
+    $description = str_by_lang(
+	'Изготовление прозрачных бассейнов, подводных окон, иллюминаторов и остекление бассейнов',
+	'Pool glazing and manufacturing of transparent swimming pools, underwater viewing windows and portholes');
     
     $keywords = str_by_lang(
         'акpилoвыe вoдныe гopки, акpилoвыe гopки, бapнaя cтoйкa в бacceйнe, бacceйн нa кpышe, вoдныe гopки, гидpoизoляция бacceйнa, жeлeзoбeтoнныe чaши, иллюминaтop в бacceйнe, интepьep бacceйнa, кaтep co cтeклянным днoм, мoбильный бacceйн, нaпopнoe ocтeклeниe, окнo в бacceйнe, окнo пoд вoдoй, оcтeклeниe бacceйнa, офopмлeниe бacceйнa, пoдвoднoe oкнo, пoдвoдныe шoy, пoдъeмнoe днo в бacceйнe, пoлимepбeтoнныe дeкopaции, пpoзpaчнaя пepeгopoдкa в бacceйнe, пpoзpaчныe вoдныe гopки, пpoзpaчныe гopки, пpoзpaчный бacceйн, стeкляннaя кyпeль, стeкляннoe джaкyзи, стeклянный бacceйн, стeклянный бacceйн нa кaтepax, стeклянный бacceйн нa яxтax, уxoд зa aкpилoвым ocтeклeниeм, уxoд зa ocтeклeниeм, уxoд зa aкpилoм',
-        '---'
+        'underwater windows, acrylic waterslides, acrylic body slides, pool bar, roof top pool, waterslide, body slide, pool waterproofing, reinforced concrete pool basin, pool porthole, pool viewing window, pool interior, glass bottom boat, glass bottom yacht, mobile pool, movable pool, pressure-tight glazing, window in pool, underwater window, pool glazing, pool decorating, pool decoration, underwater show, polymer concrete decorative articles, polymer concrete decorative items, vertical-lift pool bottom, transparent partition in pool, transparent waterslides, transparent body slide, transparent pool, glass basin, glass hot tub, glass Jacuzzi, glass pool, yacht pool, boat pool, acrylic product care, glass product care, care for acrylic glazing, care for glazing'
     );
  
 	if (is_page()) {
