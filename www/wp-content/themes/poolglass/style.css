@@ -1544,3 +1544,20 @@ table{
 	width: auto; 
 	height: auto;
 }
+
+.action-description{
+	margin: 10px auto;
+	font-size:14pt;
+	text-align:center;
+}
+.action-descr{
+	color:red;
+}
+.action-title{
+	color:#00AFE9;
+}
+.action-terms{
+	color:#637281;
+	font-size:11pt;
+	margin-top:5px;
+}
